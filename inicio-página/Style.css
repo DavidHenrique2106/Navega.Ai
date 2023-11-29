@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.topo h1{
+    color: white;
+}
+
+.topo{
+    background-color: #0C4A60;
+    padding: 25px;
+}
+
+.menu a{
+    position: relative;
+    left:1000px;
+    padding-left: 30px;
+    text-decoration: none;
+    top:  -35px;
+    color: white;
+}
