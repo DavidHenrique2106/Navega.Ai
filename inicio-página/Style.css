@@ -35,6 +35,42 @@ body{
 
 .conteudo img{
     position: relative;
-    left: 700px;
+    left: 100px;
     border-radius: 20px;
 }
+
+.scroll-container {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 20px 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; 
+}
+
+.scroll-content {
+    display: inline-block;
+    padding: 0 20px; 
+}
+
+.scroll-content img {
+    width: 200px; 
+    border-radius: 5px;
+    margin-right: 80px; 
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.scroll-content img:last-child {
+    margin-right: 0;
+}
+
+.scroll-content img:hover {
+    transform: scale(1.1); 
+}
+
