@@ -13,6 +13,7 @@ body{
 .topo{
     background-color: #0C4A60;
     padding: 25px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .menu a{
@@ -20,6 +21,20 @@ body{
     left:1000px;
     padding-left: 30px;
     text-decoration: none;
-    top:  -35px;
+    top:-35px;
     color: white;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.conteudo h1{
+    text-align: center;
+}
+
+.conteudo img{
+    position: relative;
+    left: 700px;
+    border-radius: 20px;
 }
