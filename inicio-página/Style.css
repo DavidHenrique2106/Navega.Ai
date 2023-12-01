@@ -37,53 +37,29 @@ body{
   align-items: center;
   height: 25vh;
   margin: 0;
+  top: 180px;
 }
+
+#Sobre {
+    position: relative;
+    top: 210px;
+}
+
+
 
 .conteudo img{
     position: relative;
-    left: 100px;
+    left: 225px;
     border-radius: 20px;
+    top: 220px;
 }
 
-.scroll-container {
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    padding: 20px 0;
-    -ms-overflow-style: none;
-    scrollbar-width: none; 
-}
-
-.scroll-container::-webkit-scrollbar {
-    display: none; 
-}
-
-.scroll-content {
-    display: inline-block;
-    padding: 0 20px; 
-}
-
-.scroll-content img {
-    width: 200px; 
-    border-radius: 5px;
-    margin-right: 80px; 
-    transition: transform 0.2s ease-in-out;
-    cursor: pointer;
-}
-
-.scroll-content img:last-child {
-    margin-right: 0;
-}
-
-.scroll-content img:hover {
-    transform: scale(1.1); 
-}
 .skills img{
     position: relative;
     animation: floatUpDown 3s ease-in-out infinite alternate;
-    top: 150px;
-    left: 350px;
+    top: 405px;
+    left: 450px;
+    width: 250px;
 }
 
 @keyframes floatUpDown {
@@ -94,3 +70,23 @@ body{
       transform: translateY(-20px); 
     }
   }
+
+  .desc p{
+    position: relative;
+    left: 800px;
+    top: -100px;
+    color: gray;
+  }
+
+  .title h1{
+    position: relative;
+    left: 100px;
+    top: -100px;
+    color: #0C4A60;
+  }
+
+  .servicos h1{
+    position: relative;
+    top: 400px;
+  }
+
