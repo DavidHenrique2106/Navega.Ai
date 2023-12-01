@@ -8,6 +8,7 @@ body{
 
 .topo h1{
     color: white;
+    
 }
 
 .topo{
@@ -31,6 +32,11 @@ body{
 
 .conteudo h1{
     text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  margin: 0;
 }
 
 .conteudo img{
@@ -73,4 +79,18 @@ body{
 .scroll-content img:hover {
     transform: scale(1.1); 
 }
+.skills img{
+    position: relative;
+    animation: floatUpDown 3s ease-in-out infinite alternate;
+    top: 150px;
+    left: 350px;
+}
 
+@keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px); 
+    }
+  }
