@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 :root{
+  --color1:#284B63
   --color:#006414;
   --white:#fff;
   --black:#333;
@@ -55,7 +56,7 @@ section{
 .heading h1{
   display: inline-block;
   font-size: 3.5rem;
-  color:var(--color);
+  color:var(--color1);
   position: relative;
   letter-spacing: .2rem;
 }
@@ -131,7 +132,7 @@ section{
 }
 
 .home{
-  background: linear-gradient(rgba(40, 75, 99, 1), rgba(40, 75, 99, 1));
+  background:linear-gradient(rgba(0, 100, 20, 1), rgba(143, 208, 83, 1));
   padding:0 1rem;
   position: relative;
   overflow: hidden !important;
@@ -241,10 +242,18 @@ section{
   width: 100%;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
   font-size: 3.5rem;
-  color: var(--color);
+  color: #284B63; 
 }
+
+.about .row .content p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #284B63; 
+  padding: 1rem 0;
+}
+
 
 .about .row .content p{
   font-size: 1.6rem;
@@ -306,7 +315,7 @@ section{
 
 .service .box-container .box .content h3{
   font-size: 2.5rem;
-  color: var(--color);
+  color: var(--color1);
   margin-bottom: 1rem;
 }
 
