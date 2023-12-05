@@ -131,7 +131,7 @@ section{
 }
 
 .home{
-  background: linear-gradient(rgba(40, 75, 99, 1), rgba(40, 75, 99, 1));
+  background:linear-gradient(rgba(0, 100, 20, 1), rgba(143, 208, 83, 1));
   padding:0 1rem;
   position: relative;
   overflow: hidden !important;
