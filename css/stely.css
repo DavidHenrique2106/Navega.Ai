@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 :root{
+  --color1:#284B63;
   --color:#006414;
   --white:#fff;
   --black:#333;
@@ -545,7 +546,7 @@ section{
 }
 
 .footer{
-  background:var(--color);
+  background:var(--color1);
 }
 
 .footer .flex{
@@ -560,9 +561,10 @@ section{
 }
 
 .footer .links a{
-  color:var(--white);
+  color:var(--color);
   font-size: 1.8rem;
   margin-left: 2rem;
+  text-align: center;
 }
 
 
