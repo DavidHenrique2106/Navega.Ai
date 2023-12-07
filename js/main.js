@@ -40,8 +40,8 @@ $(document).ready(function(){
     body += "Email: " + email + "\n\n";
     body += "Mensagem: \n" + message;
   
-    var subject = "Contato via site - Sustenta Recife";
-    var mailtoLink = "mailto:annabeatryz12345@gmail.com" +
+    var subject = "Contato via site - Navega Ai";
+    var mailtoLink = "mailto:Dh210605@gmail.com" +
                      "?subject=" + encodeURIComponent(subject) +
                      "&body=" + encodeURIComponent(body);
   
